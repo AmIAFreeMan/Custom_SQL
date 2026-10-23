@@ -4,6 +4,7 @@ A lightweight, disk-backed, zero-dependency custom SQL database engine built fro
 
 It features a custom SQL parser, full CRUD operations (Create, Read, Update, Delete), binary image (`BLOB`) storage support, persistent file modifications on disk, and an interactive REPL shell.
 
+I designed it so the data is stored inside the projec for demonstration purpose. In a real world application it would be stored elsewhere. 
 ---
 
 ## Features
