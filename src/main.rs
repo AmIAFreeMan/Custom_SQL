@@ -11,6 +11,7 @@ fn main() {
     println!("       Welcome to MiniSQL Engine in Rust!         ");
     println!("==================================================");
     println!("Type 'HELP;' to see available commands or 'EXIT;'.\n");
+    println!("Made with love, by Yan C.\n");
 
     let engine = DatabaseEngine::new("./data");
     let stdin = io::stdin();
